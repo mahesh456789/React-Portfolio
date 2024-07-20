@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.4rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.right {
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom:10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom:5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(18, 18, 62);
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: rgb(153, 153, 226);
+}
+
+.container img {
+    width:20%;
+    margin: 50px 0;
+    border-radius:100px;
+    float: right; /* Align image to the right */
+}
+
+@media (max-width: 768px) {
+    .container img {
+        float: none; /* Reset float for smaller screens */
+        width: 80%; /* Make image full width on smaller screens */
+        margin: 20px 0; /* Adjust margin for smaller screens */
+    }
+}
+
+.container h1{
+    color: #9c97f1;
+}
+.container strong{
+    color:aquamarine;
+}
